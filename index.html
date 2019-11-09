@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+    <div id="main">
+        <div id="timer"></div>
+        <h1> It's quiz time!</h1>
+        <form>
+            <label> What's my middle name?</label>
+            <fieldset id="middleNameQuestion">
+                <input type="radio" name="name" value="Reed"> Reed<br>
+                <input type="radio" name="name" value="Ryan"> Ryan<br>
+                <input type="radio" name="name" value="Reynold"> Reynold
+            </fieldset>
+
+            <label> what's my favorite color?</label>
+            <fieldset id="colorQuestion">
+                <input type="radio" name="color" value="Red"> Red<br>
+                <input type="radio" name="color" value="Blue"> Blue<br>
+                <input type="radio" name="color" value="Purple"> Purple
+            </fieldset>
+
+            <label> What's my wife's name?</label>
+            <fieldset id="wifeQuestion">
+                <input type="radio" name="wife" value="Cindy"> Cindy<br>
+                <input type="radio" name="wife" value="Rebecca"> Rebecca<br>
+                <input type="radio" name="wife" value="Julia"> Julia
+            </fieldset>
+
+            <label> What's my age?</label>
+            <fieldset id="ageQuestion">
+                <input type="radio" name="age" value="23"> 23<br>
+                <input type="radio" name="age" value="24"> 24<br>
+                <input type="radio" name="age" value="26"> 26
+            </fieldset>
+
+            <label> What's my favorite food?</label>
+            <fieldset id="foodQuestion">
+                <input type="radio" name="food" value="pizza"> pizza<br>
+                <input type="radio" name="food" value="hamburger"> humburger<br>
+                <input type="radio" name="food" value="apples"> apples
+            </fieldset>
+            
+        </form>
+        <button class="submit">Submit</button>
+
+
+
+
+    </div>
+
+    <div id="scoreboard">
+        <div id="correctAnswers"><p></p></div>
+        <div id="wrongAnswers"><p></p></div>
+        <div id="unanswered"><p></p></div>
+
+        <button id="newGame">
+            New Game
+        </button>
+    </div>
+
+    <!-- JQuery CDN goes here -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="./assets/js/quiz.js"></script>
+</body>
+
+</html>

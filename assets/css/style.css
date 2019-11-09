@@ -1,0 +1,32 @@
+h1 {
+    color: brown;
+    text-align: center;
+}
+body {
+    background: url("./backgroundconfetti.jpg");
+    text-align: center;;
+}
+
+hr {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+fieldset { 
+    border: none;
+
+}
+
+
+#main {
+    background-color: burlywood;
+    width: 65%;
+    margin: 0 auto;
+
+}
+
+#scoreboard { 
+    background-color: burlywood;
+    width: 65%;
+    margin: 0 auto;
+}
+
