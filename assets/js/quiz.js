@@ -11,8 +11,12 @@ var incorrectAnswers = 0;
 $("#scoreboard").hide()
 
 function displayTimer() {
-    $("#main").show()
+    maxTime = 15;
+    $("#main").show();
+    $("#scoreboard").hide();
+
     timerDisplay.text(maxTime);
+    clearTimeout(timerInterval)
     timerInterval = setInterval(function () {
         // decrease maxTime by 1
         maxTime--;
@@ -106,6 +110,7 @@ $(document).ready(function () {
 
     // display timer
     displayTimer();
+
 
 });
 
